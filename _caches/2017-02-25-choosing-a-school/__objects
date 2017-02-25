@@ -1,0 +1,10 @@
+unnamed-chunk-1	coords	school_names
+unnamed-chunk-2	
+unnamed-chunk-3	bbox	coords	lat_range	lng_range	map	margin	p
+unnamed-chunk-4	all	lats	lngs	resolution
+unnamed-chunk-5	all	closest_school
+unnamed-chunk-6	all	closest_school	lats	lngs	resolution
+unnamed-chunk-7	ch	df	x	y
+unnamed-chunk-8	compute_convexhull	convex_hulls
+unnamed-chunk-9	
+unnamed-chunk-10	

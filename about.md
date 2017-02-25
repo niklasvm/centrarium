@@ -4,14 +4,27 @@ title: About
 permalink: /about/
 ---
 
-<img src="{{ site.baseurl }}/assets/profile-placeholder.gif" title="Profile Picture" class="profile">
+<img src="{{ site.baseurl }}/assets/profile_pic.jpg" title="Profile Picture" class="profile" style="width:125px;height:175px;">
 
-Centrarium is a custom theme for Jekyll, made by [Ben Centra][bencentra] for his own blog. He'd be humbled if you liked it enough to use it as well! Installation and configuration instructions can be found in the [GitHub repository](https://github.com/bencentra/centrarium).
+Hi there! Welcome to my site!
 
-This page is a good place to write about yourself, your project, your product, or whatever it is your site is for. You can replace the image above, or you can get rid of it entirely. 
+I'm Niklas and I'm a Data Science enthusiast currently working in the fintech industry in Cape Town, South Africa.
 
-You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/). And you can find the source code for Jekyll at [github.com/jekyll/jekyll](https://github.com/jekyll/jekyll)
+I have an honours degree in Quantitative Finance and Statistics from the University of Cape Town. After graduating I joined a boutique asset management company as a Quant where I built financial models and strategies. In 2015 I did [Andrew Ng's Stanford Machine Learning course](https://www.coursera.org/learn/machine-learning) which sparked my interest in machine learning and initiated my journey to become a Data Scientist. In 2016 I joined [Jumo.World](http://jumo.world) as a Decision Scientist where I build predictive models for decisioning processes such as credit risk and fraud.
 
-[centrarium]: https://github.com/bencentra/centrarium
-[bencentra]: http://bencentra.com
-[jekyll]: https://github.com/jekyll/jekyll
+I have a strong interest in all things data/quantitative:
+  - Machine Learning
+  - Data science
+  - R
+  
+I believe innovation together with technology will be the key to making better, more successful business decisions in the future.
+
+I have been an avid [R](https://cran.r-project.org/) user for the last 10 years. I first learned to program in java as a youngster where I built basic computer games after school. At university I was introduced to R and then went on to teach it to students for the remainder of my degree.
+
+Outside of data and R I am a keen road runner, participating in races in and around Cape Town up to half-marathon distance.
+
+This site aims to showcase my adventures in data and coding.
+
+### Contact me
+
+niklasvm at gmail dot com

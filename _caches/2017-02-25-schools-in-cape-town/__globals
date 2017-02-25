@@ -1,0 +1,12 @@
+unnamed-chunk-1	$<-	c	geocode	library
+unnamed-chunk-2	%>%	coords	kable	library
+unnamed-chunk-3	$	%>%	aes	attr	c	clean_name	coord_map	diff	element_blank	F	geom_point	geom_text_repel	get_map	ggmap	labs	lat	library	lon	max	min	name	range	separate	theme
+unnamed-chunk-4	bbox	expand.grid	geom_hline	geom_vline	p	seq
+unnamed-chunk-5	$<-	::	aes	coords	geom_point	labs	lat	library	lng	lon	p	school	theme
+unnamed-chunk-6	$<-	::	bbox	coords	expand.grid	seq
+unnamed-chunk-7	%>%	aes	as.matrix	c	chull	data.frame	geom_point	geom_polygon	ggplot	labs	rnorm	theme	theme_minimal
+unnamed-chunk-8	$	%>%	.	~	all	as.matrix	c	chull	lat	library	lng	map	reduce	return	select	split	union_all
+unnamed-chunk-9	%>%	convex_hulls	head	kable
+unnamed-chunk-10	aes	convex_hulls	coords	geom_path	geom_point	geom_polygon	labs	lat	lng	lon	p	school
+unnamed-chunk-11	$	%>%	.	~	addMarkers	addPolygons	addTiles	colorFactor	convex_hulls	coords	F	for	leaflet	levels	library	nrow	rainbow	split
+unnamed-chunk-12	$	%>%	.	~	addMarkers	addPolygons	addTiles	colorFactor	convex_hulls	coords	F	for	leaflet	levels	library	nrow	rainbow	split
