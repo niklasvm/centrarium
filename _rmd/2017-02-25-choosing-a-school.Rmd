@@ -39,9 +39,9 @@ coords$name <- school_names
 
 This gives a data frame:
 
-```{r,echo=F}
+```{r,echo=F,results='asis'}
 library(knitr)
-coords %>% kable
+coords %>% kable(.,align = 'c')
 ```
 
 We can now use ggmap to plot these on a map:
@@ -193,7 +193,7 @@ compute_convexhull <- function(df) {
   return(df[c(ch,ch[1]),])
 }
 
-library(purrr)
+suppressPackageStartupMessages(library(purrr))
 
 # compute convex hull using grid
 convex_hulls <- all %>% 
@@ -207,14 +207,14 @@ convex_hulls <- all %>%
 The result looks like this:
 
 ```{r,include=T,echo=F}
-convex_hulls %>% head(20) %>% kable
+convex_hulls %>% head(20) %>% kable(.,align = 'c')
 ```
 
 This data frame should be enough to enclose our points in to a polygon.
 
 Let's plot the convex hulls as polygons on our map.
 
-```{r,echo=T}
+```{r,echo=T,warning=F}
 p+
   geom_polygon(data=convex_hulls,
                aes(x=lng,y=lat,group=school,fill=school),alpha=0.5)+

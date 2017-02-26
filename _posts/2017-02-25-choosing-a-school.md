@@ -2,8 +2,9 @@
 layout: post
 title: 'Choosing a school in Cape Town, Southern Suburbs'
 author: 'Niklas von Maltzahn'
-output: html_document
-tags: r, ggplot2, ggmap
+output: 
+  html_document
+tags: [r, ggplot2, ggmap]
 category: r
 comments: yes
 ---
@@ -38,14 +39,14 @@ coords$name <- school_names
 This gives a data frame:
 
 
-|      lon|       lat|name                                           |
-|--------:|---------:|:----------------------------------------------|
-| 18.47534| -33.96447|Rondebosch Boys Preparatory School             |
-| 18.47343| -33.96927|Groote Schuur Primary School, Rondebosch       |
-| 18.49046| -33.97614|Golden Grove Primary School, Rondebosch        |
-| 18.47072| -33.97929|Claremont Primary School, Claremont, Cape Town |
-| 18.48917| -33.96159|Rosebank Junior School                         |
-| 18.45988| -33.98285|Grove Primary School, Claremont, Cape Town     |
+|   lon    |    lat    |                      name                      |
+|:--------:|:---------:|:----------------------------------------------:|
+| 18.47534 | -33.96447 |       Rondebosch Boys Preparatory School       |
+| 18.47343 | -33.96927 |    Groote Schuur Primary School, Rondebosch    |
+| 18.49046 | -33.97614 |    Golden Grove Primary School, Rondebosch     |
+| 18.47072 | -33.97929 | Claremont Primary School, Claremont, Cape Town |
+| 18.48917 | -33.96159 |             Rosebank Junior School             |
+| 18.45988 | -33.98285 |   Grove Primary School, Claremont, Cape Town   |
 
 We can now use ggmap to plot these on a map:
 
@@ -191,27 +192,8 @@ compute_convexhull <- function(df) {
   return(df[c(ch,ch[1]),])
 }
 
-library(purrr)
-{% endhighlight %}
+suppressPackageStartupMessages(library(purrr))
 
-
-
-{% highlight text %}
-## 
-## Attaching package: 'purrr'
-{% endhighlight %}
-
-
-
-{% highlight text %}
-## The following objects are masked from 'package:dplyr':
-## 
-##     contains, order_by
-{% endhighlight %}
-
-
-
-{% highlight r %}
 # compute convex hull using grid
 convex_hulls <- all %>% 
   split(.$school) %>% 
@@ -224,28 +206,28 @@ convex_hulls <- all %>%
 The result looks like this:
 
 
-|      lng|       lat|school                      |
-|--------:|---------:|:---------------------------|
-| 18.48467| -34.00335|Claremont Primary School    |
-| 18.48477| -34.00399|Claremont Primary School    |
-| 18.48477| -34.00412|Claremont Primary School    |
-| 18.47292| -34.00412|Claremont Primary School    |
-| 18.47283| -34.00399|Claremont Primary School    |
-| 18.46943| -33.99364|Claremont Primary School    |
-| 18.46410| -33.97743|Claremont Primary School    |
-| 18.46291| -33.97379|Claremont Primary School    |
-| 18.46245| -33.97238|Claremont Primary School    |
-| 18.46226| -33.97181|Claremont Primary School    |
-| 18.46226| -33.97168|Claremont Primary School    |
-| 18.46245| -33.97168|Claremont Primary School    |
-| 18.47898| -33.97615|Claremont Primary School    |
-| 18.48036| -33.97653|Claremont Primary School    |
-| 18.48045| -33.97685|Claremont Primary School    |
-| 18.48072| -33.97857|Claremont Primary School    |
-| 18.48164| -33.98432|Claremont Primary School    |
-| 18.48467| -34.00335|Claremont Primary School    |
-| 18.52105| -34.00412|Golden Grove Primary School |
-| 18.48486| -34.00412|Golden Grove Primary School |
+|   lng    |    lat    |           school            |
+|:--------:|:---------:|:---------------------------:|
+| 18.48467 | -34.00335 |  Claremont Primary School   |
+| 18.48477 | -34.00399 |  Claremont Primary School   |
+| 18.48477 | -34.00412 |  Claremont Primary School   |
+| 18.47292 | -34.00412 |  Claremont Primary School   |
+| 18.47283 | -34.00399 |  Claremont Primary School   |
+| 18.46943 | -33.99364 |  Claremont Primary School   |
+| 18.46410 | -33.97743 |  Claremont Primary School   |
+| 18.46291 | -33.97379 |  Claremont Primary School   |
+| 18.46245 | -33.97238 |  Claremont Primary School   |
+| 18.46226 | -33.97181 |  Claremont Primary School   |
+| 18.46226 | -33.97168 |  Claremont Primary School   |
+| 18.46245 | -33.97168 |  Claremont Primary School   |
+| 18.47898 | -33.97615 |  Claremont Primary School   |
+| 18.48036 | -33.97653 |  Claremont Primary School   |
+| 18.48045 | -33.97685 |  Claremont Primary School   |
+| 18.48072 | -33.97857 |  Claremont Primary School   |
+| 18.48164 | -33.98432 |  Claremont Primary School   |
+| 18.48467 | -34.00335 |  Claremont Primary School   |
+| 18.52105 | -34.00412 | Golden Grove Primary School |
+| 18.48486 | -34.00412 | Golden Grove Primary School |
 
 This data frame should be enough to enclose our points in to a polygon.
 
@@ -261,12 +243,6 @@ p+
   geom_point(data=coords,
              aes(x=lon,y=lat),col='darkblue',size=2)+
   labs(x='',y='',fill='',title='School Zones')
-{% endhighlight %}
-
-
-
-{% highlight text %}
-## Warning: Ignoring unknown aesthetics: fill
 {% endhighlight %}
 
 ![center](/figs/2017-02-25-choosing-a-school/unnamed-chunk-10-1.png)

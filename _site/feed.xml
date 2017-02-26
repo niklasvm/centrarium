@@ -6,8 +6,8 @@
 </description>
     <link>https://niklasvm.github.io/</link>
     <atom:link href="https://niklasvm.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 25 Feb 2017 20:46:56 +0200</pubDate>
-    <lastBuildDate>Sat, 25 Feb 2017 20:46:56 +0200</lastBuildDate>
+    <pubDate>Sun, 26 Feb 2017 08:52:57 +0200</pubDate>
+    <lastBuildDate>Sun, 26 Feb 2017 08:52:57 +0200</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -39,41 +39,41 @@
 &lt;table&gt;
   &lt;thead&gt;
     &lt;tr&gt;
-      &lt;th style=&quot;text-align: right&quot;&gt;lon&lt;/th&gt;
-      &lt;th style=&quot;text-align: right&quot;&gt;lat&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;name&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;lon&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;lat&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;name&lt;/th&gt;
     &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;18.47534&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;-33.96447&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Rondebosch Boys Preparatory School&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;18.47534&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;-33.96447&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Rondebosch Boys Preparatory School&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;18.47343&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;-33.96927&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Groote Schuur Primary School, Rondebosch&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;18.47343&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;-33.96927&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Groote Schuur Primary School, Rondebosch&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;18.49046&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;-33.97614&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Golden Grove Primary School, Rondebosch&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;18.49046&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;-33.97614&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Golden Grove Primary School, Rondebosch&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;18.47072&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;-33.97929&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Claremont Primary School, Claremont, Cape Town&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;18.47072&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;-33.97929&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Claremont Primary School, Claremont, Cape Town&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;18.48917&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;-33.96159&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Rosebank Junior School&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;18.48917&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;-33.96159&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Rosebank Junior School&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;18.45988&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;-33.98285&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Grove Primary School, Claremont, Cape Town&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;18.45988&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;-33.98285&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Grove Primary School, Claremont, Cape Town&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -205,16 +205,9 @@
   &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;return&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;df&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ch&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;ch&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]),])&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 &lt;/span&gt;&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 
-&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;library&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;purrr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;suppressPackageStartupMessages&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;library&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;purrr&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;## 
-## Attaching package: 'purrr'&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;## The following objects are masked from 'package:dplyr':
-## 
-##     contains, order_by&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;&lt;span class=&quot;c1&quot;&gt;# compute convex hull using grid
+&lt;/span&gt;&lt;span class=&quot;c1&quot;&gt;# compute convex hull using grid
 &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;convex_hulls&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;&amp;lt;-&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;all&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&amp;gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
   &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;$&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;school&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&amp;gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
   &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;~&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;compute_convexhull&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;%&amp;gt;%&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; 
@@ -227,111 +220,111 @@
 &lt;table&gt;
   &lt;thead&gt;
     &lt;tr&gt;
-      &lt;th style=&quot;text-align: right&quot;&gt;lng&lt;/th&gt;
-      &lt;th style=&quot;text-align: right&quot;&gt;lat&lt;/th&gt;
-      &lt;th style=&quot;text-align: left&quot;&gt;school&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;lng&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;lat&lt;/th&gt;
+      &lt;th style=&quot;text-align: center&quot;&gt;school&lt;/th&gt;
     &lt;/tr&gt;
   &lt;/thead&gt;
   &lt;tbody&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;18.48467&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;-34.00335&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Claremont Primary School&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;18.48467&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;-34.00335&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Claremont Primary School&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;18.48477&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;-34.00399&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Claremont Primary School&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;18.48477&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;-34.00399&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Claremont Primary School&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;18.48477&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;-34.00412&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Claremont Primary School&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;18.48477&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;-34.00412&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Claremont Primary School&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;18.47292&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;-34.00412&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Claremont Primary School&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;18.47292&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;-34.00412&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Claremont Primary School&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;18.47283&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;-34.00399&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Claremont Primary School&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;18.47283&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;-34.00399&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Claremont Primary School&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;18.46943&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;-33.99364&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Claremont Primary School&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;18.46943&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;-33.99364&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Claremont Primary School&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;18.46410&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;-33.97743&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Claremont Primary School&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;18.46410&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;-33.97743&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Claremont Primary School&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;18.46291&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;-33.97379&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Claremont Primary School&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;18.46291&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;-33.97379&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Claremont Primary School&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;18.46245&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;-33.97238&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Claremont Primary School&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;18.46245&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;-33.97238&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Claremont Primary School&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;18.46226&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;-33.97181&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Claremont Primary School&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;18.46226&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;-33.97181&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Claremont Primary School&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;18.46226&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;-33.97168&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Claremont Primary School&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;18.46226&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;-33.97168&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Claremont Primary School&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;18.46245&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;-33.97168&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Claremont Primary School&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;18.46245&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;-33.97168&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Claremont Primary School&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;18.47898&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;-33.97615&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Claremont Primary School&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;18.47898&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;-33.97615&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Claremont Primary School&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;18.48036&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;-33.97653&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Claremont Primary School&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;18.48036&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;-33.97653&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Claremont Primary School&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;18.48045&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;-33.97685&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Claremont Primary School&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;18.48045&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;-33.97685&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Claremont Primary School&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;18.48072&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;-33.97857&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Claremont Primary School&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;18.48072&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;-33.97857&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Claremont Primary School&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;18.48164&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;-33.98432&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Claremont Primary School&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;18.48164&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;-33.98432&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Claremont Primary School&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;18.48467&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;-34.00335&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Claremont Primary School&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;18.48467&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;-34.00335&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Claremont Primary School&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;18.52105&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;-34.00412&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Golden Grove Primary School&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;18.52105&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;-34.00412&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Golden Grove Primary School&lt;/td&gt;
     &lt;/tr&gt;
     &lt;tr&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;18.48486&lt;/td&gt;
-      &lt;td style=&quot;text-align: right&quot;&gt;-34.00412&lt;/td&gt;
-      &lt;td style=&quot;text-align: left&quot;&gt;Golden Grove Primary School&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;18.48486&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;-34.00412&lt;/td&gt;
+      &lt;td style=&quot;text-align: center&quot;&gt;Golden Grove Primary School&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -348,8 +341,6 @@
   &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;geom_point&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;data&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;coords&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
              &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;aes&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lon&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;lat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;col&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'darkblue'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;size&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;+&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
   &lt;/span&gt;&lt;span class=&quot;n&quot;&gt;labs&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;''&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;y&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;''&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;fill&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;''&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;title&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'School Zones'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;## Warning: Ignoring unknown aesthetics: fill&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;&lt;img src=&quot;/figs/2017-02-25-choosing-a-school/unnamed-chunk-10-1.png&quot; alt=&quot;center&quot; /&gt;&lt;/p&gt;
 
@@ -391,9 +382,9 @@
         <link>https://niklasvm.github.io/r/2017/02/25/choosing-a-school.html</link>
         <guid isPermaLink="true">https://niklasvm.github.io/r/2017/02/25/choosing-a-school.html</guid>
         
-        <category>r,</category>
+        <category>r</category>
         
-        <category>ggplot2,</category>
+        <category>ggplot2</category>
         
         <category>ggmap</category>
         

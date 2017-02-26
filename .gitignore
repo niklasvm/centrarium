@@ -10,3 +10,5 @@
 .bundle/
 vendor/
 .Rproj.user
+
+_cache/

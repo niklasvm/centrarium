@@ -15,7 +15,8 @@
 
   <!-- External libraries -->
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
-  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/monokai-sublime.min.css">
+  <!-- <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/obsidian.min.css"> -->
+  <!-- <link href="/css/syntax.css" rel="stylesheet"> -->
   <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/lightbox2/2.7.1/css/lightbox.css">
 
 
@@ -94,21 +95,13 @@
           
         
           
-          <li class="nav-link"><a href="/zzzz/">ZZZZZ</a>
-          
         
           
         
           
         
           
-        
-          
-          <li class="nav-link"><a href="/posts/">Posts</a>
-          
-        
-          
-          <li class="nav-link"><a href="/typography/">Typography</a>
+          <li class="nav-link"><a href="/posts/">Blog</a>
           
         
       </ul>
@@ -176,41 +169,41 @@
 <table>
   <thead>
     <tr>
-      <th style="text-align: right">lon</th>
-      <th style="text-align: right">lat</th>
-      <th style="text-align: left">name</th>
+      <th style="text-align: center">lon</th>
+      <th style="text-align: center">lat</th>
+      <th style="text-align: center">name</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: right">18.47534</td>
-      <td style="text-align: right">-33.96447</td>
-      <td style="text-align: left">Rondebosch Boys Preparatory School</td>
+      <td style="text-align: center">18.47534</td>
+      <td style="text-align: center">-33.96447</td>
+      <td style="text-align: center">Rondebosch Boys Preparatory School</td>
     </tr>
     <tr>
-      <td style="text-align: right">18.47343</td>
-      <td style="text-align: right">-33.96927</td>
-      <td style="text-align: left">Groote Schuur Primary School, Rondebosch</td>
+      <td style="text-align: center">18.47343</td>
+      <td style="text-align: center">-33.96927</td>
+      <td style="text-align: center">Groote Schuur Primary School, Rondebosch</td>
     </tr>
     <tr>
-      <td style="text-align: right">18.49046</td>
-      <td style="text-align: right">-33.97614</td>
-      <td style="text-align: left">Golden Grove Primary School, Rondebosch</td>
+      <td style="text-align: center">18.49046</td>
+      <td style="text-align: center">-33.97614</td>
+      <td style="text-align: center">Golden Grove Primary School, Rondebosch</td>
     </tr>
     <tr>
-      <td style="text-align: right">18.47072</td>
-      <td style="text-align: right">-33.97929</td>
-      <td style="text-align: left">Claremont Primary School, Claremont, Cape Town</td>
+      <td style="text-align: center">18.47072</td>
+      <td style="text-align: center">-33.97929</td>
+      <td style="text-align: center">Claremont Primary School, Claremont, Cape Town</td>
     </tr>
     <tr>
-      <td style="text-align: right">18.48917</td>
-      <td style="text-align: right">-33.96159</td>
-      <td style="text-align: left">Rosebank Junior School</td>
+      <td style="text-align: center">18.48917</td>
+      <td style="text-align: center">-33.96159</td>
+      <td style="text-align: center">Rosebank Junior School</td>
     </tr>
     <tr>
-      <td style="text-align: right">18.45988</td>
-      <td style="text-align: right">-33.98285</td>
-      <td style="text-align: left">Grove Primary School, Claremont, Cape Town</td>
+      <td style="text-align: center">18.45988</td>
+      <td style="text-align: center">-33.98285</td>
+      <td style="text-align: center">Grove Primary School, Claremont, Cape Town</td>
     </tr>
   </tbody>
 </table>
@@ -342,16 +335,9 @@
   </span><span class="nf">return</span><span class="p">(</span><span class="n">df</span><span class="p">[</span><span class="nf">c</span><span class="p">(</span><span class="n">ch</span><span class="p">,</span><span class="n">ch</span><span class="p">[</span><span class="m">1</span><span class="p">]),])</span><span class="w">
 </span><span class="p">}</span><span class="w">
 
-</span><span class="n">library</span><span class="p">(</span><span class="n">purrr</span><span class="p">)</span></code></pre></figure>
+</span><span class="n">suppressPackageStartupMessages</span><span class="p">(</span><span class="n">library</span><span class="p">(</span><span class="n">purrr</span><span class="p">))</span><span class="w">
 
-<figure class="highlight"><pre><code class="language-text" data-lang="text">## 
-## Attaching package: 'purrr'</code></pre></figure>
-
-<figure class="highlight"><pre><code class="language-text" data-lang="text">## The following objects are masked from 'package:dplyr':
-## 
-##     contains, order_by</code></pre></figure>
-
-<figure class="highlight"><pre><code class="language-r" data-lang="r"><span class="c1"># compute convex hull using grid
+</span><span class="c1"># compute convex hull using grid
 </span><span class="n">convex_hulls</span><span class="w"> </span><span class="o">&lt;-</span><span class="w"> </span><span class="n">all</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w"> 
   </span><span class="n">split</span><span class="p">(</span><span class="n">.</span><span class="o">$</span><span class="n">school</span><span class="p">)</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w"> 
   </span><span class="n">map</span><span class="p">(</span><span class="o">~</span><span class="n">compute_convexhull</span><span class="p">(</span><span class="n">.</span><span class="p">))</span><span class="w"> </span><span class="o">%&gt;%</span><span class="w"> 
@@ -364,111 +350,111 @@
 <table>
   <thead>
     <tr>
-      <th style="text-align: right">lng</th>
-      <th style="text-align: right">lat</th>
-      <th style="text-align: left">school</th>
+      <th style="text-align: center">lng</th>
+      <th style="text-align: center">lat</th>
+      <th style="text-align: center">school</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td style="text-align: right">18.48467</td>
-      <td style="text-align: right">-34.00335</td>
-      <td style="text-align: left">Claremont Primary School</td>
+      <td style="text-align: center">18.48467</td>
+      <td style="text-align: center">-34.00335</td>
+      <td style="text-align: center">Claremont Primary School</td>
     </tr>
     <tr>
-      <td style="text-align: right">18.48477</td>
-      <td style="text-align: right">-34.00399</td>
-      <td style="text-align: left">Claremont Primary School</td>
+      <td style="text-align: center">18.48477</td>
+      <td style="text-align: center">-34.00399</td>
+      <td style="text-align: center">Claremont Primary School</td>
     </tr>
     <tr>
-      <td style="text-align: right">18.48477</td>
-      <td style="text-align: right">-34.00412</td>
-      <td style="text-align: left">Claremont Primary School</td>
+      <td style="text-align: center">18.48477</td>
+      <td style="text-align: center">-34.00412</td>
+      <td style="text-align: center">Claremont Primary School</td>
     </tr>
     <tr>
-      <td style="text-align: right">18.47292</td>
-      <td style="text-align: right">-34.00412</td>
-      <td style="text-align: left">Claremont Primary School</td>
+      <td style="text-align: center">18.47292</td>
+      <td style="text-align: center">-34.00412</td>
+      <td style="text-align: center">Claremont Primary School</td>
     </tr>
     <tr>
-      <td style="text-align: right">18.47283</td>
-      <td style="text-align: right">-34.00399</td>
-      <td style="text-align: left">Claremont Primary School</td>
+      <td style="text-align: center">18.47283</td>
+      <td style="text-align: center">-34.00399</td>
+      <td style="text-align: center">Claremont Primary School</td>
     </tr>
     <tr>
-      <td style="text-align: right">18.46943</td>
-      <td style="text-align: right">-33.99364</td>
-      <td style="text-align: left">Claremont Primary School</td>
+      <td style="text-align: center">18.46943</td>
+      <td style="text-align: center">-33.99364</td>
+      <td style="text-align: center">Claremont Primary School</td>
     </tr>
     <tr>
-      <td style="text-align: right">18.46410</td>
-      <td style="text-align: right">-33.97743</td>
-      <td style="text-align: left">Claremont Primary School</td>
+      <td style="text-align: center">18.46410</td>
+      <td style="text-align: center">-33.97743</td>
+      <td style="text-align: center">Claremont Primary School</td>
     </tr>
     <tr>
-      <td style="text-align: right">18.46291</td>
-      <td style="text-align: right">-33.97379</td>
-      <td style="text-align: left">Claremont Primary School</td>
+      <td style="text-align: center">18.46291</td>
+      <td style="text-align: center">-33.97379</td>
+      <td style="text-align: center">Claremont Primary School</td>
     </tr>
     <tr>
-      <td style="text-align: right">18.46245</td>
-      <td style="text-align: right">-33.97238</td>
-      <td style="text-align: left">Claremont Primary School</td>
+      <td style="text-align: center">18.46245</td>
+      <td style="text-align: center">-33.97238</td>
+      <td style="text-align: center">Claremont Primary School</td>
     </tr>
     <tr>
-      <td style="text-align: right">18.46226</td>
-      <td style="text-align: right">-33.97181</td>
-      <td style="text-align: left">Claremont Primary School</td>
+      <td style="text-align: center">18.46226</td>
+      <td style="text-align: center">-33.97181</td>
+      <td style="text-align: center">Claremont Primary School</td>
     </tr>
     <tr>
-      <td style="text-align: right">18.46226</td>
-      <td style="text-align: right">-33.97168</td>
-      <td style="text-align: left">Claremont Primary School</td>
+      <td style="text-align: center">18.46226</td>
+      <td style="text-align: center">-33.97168</td>
+      <td style="text-align: center">Claremont Primary School</td>
     </tr>
     <tr>
-      <td style="text-align: right">18.46245</td>
-      <td style="text-align: right">-33.97168</td>
-      <td style="text-align: left">Claremont Primary School</td>
+      <td style="text-align: center">18.46245</td>
+      <td style="text-align: center">-33.97168</td>
+      <td style="text-align: center">Claremont Primary School</td>
     </tr>
     <tr>
-      <td style="text-align: right">18.47898</td>
-      <td style="text-align: right">-33.97615</td>
-      <td style="text-align: left">Claremont Primary School</td>
+      <td style="text-align: center">18.47898</td>
+      <td style="text-align: center">-33.97615</td>
+      <td style="text-align: center">Claremont Primary School</td>
     </tr>
     <tr>
-      <td style="text-align: right">18.48036</td>
-      <td style="text-align: right">-33.97653</td>
-      <td style="text-align: left">Claremont Primary School</td>
+      <td style="text-align: center">18.48036</td>
+      <td style="text-align: center">-33.97653</td>
+      <td style="text-align: center">Claremont Primary School</td>
     </tr>
     <tr>
-      <td style="text-align: right">18.48045</td>
-      <td style="text-align: right">-33.97685</td>
-      <td style="text-align: left">Claremont Primary School</td>
+      <td style="text-align: center">18.48045</td>
+      <td style="text-align: center">-33.97685</td>
+      <td style="text-align: center">Claremont Primary School</td>
     </tr>
     <tr>
-      <td style="text-align: right">18.48072</td>
-      <td style="text-align: right">-33.97857</td>
-      <td style="text-align: left">Claremont Primary School</td>
+      <td style="text-align: center">18.48072</td>
+      <td style="text-align: center">-33.97857</td>
+      <td style="text-align: center">Claremont Primary School</td>
     </tr>
     <tr>
-      <td style="text-align: right">18.48164</td>
-      <td style="text-align: right">-33.98432</td>
-      <td style="text-align: left">Claremont Primary School</td>
+      <td style="text-align: center">18.48164</td>
+      <td style="text-align: center">-33.98432</td>
+      <td style="text-align: center">Claremont Primary School</td>
     </tr>
     <tr>
-      <td style="text-align: right">18.48467</td>
-      <td style="text-align: right">-34.00335</td>
-      <td style="text-align: left">Claremont Primary School</td>
+      <td style="text-align: center">18.48467</td>
+      <td style="text-align: center">-34.00335</td>
+      <td style="text-align: center">Claremont Primary School</td>
     </tr>
     <tr>
-      <td style="text-align: right">18.52105</td>
-      <td style="text-align: right">-34.00412</td>
-      <td style="text-align: left">Golden Grove Primary School</td>
+      <td style="text-align: center">18.52105</td>
+      <td style="text-align: center">-34.00412</td>
+      <td style="text-align: center">Golden Grove Primary School</td>
     </tr>
     <tr>
-      <td style="text-align: right">18.48486</td>
-      <td style="text-align: right">-34.00412</td>
-      <td style="text-align: left">Golden Grove Primary School</td>
+      <td style="text-align: center">18.48486</td>
+      <td style="text-align: center">-34.00412</td>
+      <td style="text-align: center">Golden Grove Primary School</td>
     </tr>
   </tbody>
 </table>
@@ -485,8 +471,6 @@
   </span><span class="n">geom_point</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">coords</span><span class="p">,</span><span class="w">
              </span><span class="n">aes</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">lon</span><span class="p">,</span><span class="n">y</span><span class="o">=</span><span class="n">lat</span><span class="p">),</span><span class="n">col</span><span class="o">=</span><span class="s1">'darkblue'</span><span class="p">,</span><span class="n">size</span><span class="o">=</span><span class="m">2</span><span class="p">)</span><span class="o">+</span><span class="w">
   </span><span class="n">labs</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s1">''</span><span class="p">,</span><span class="n">y</span><span class="o">=</span><span class="s1">''</span><span class="p">,</span><span class="n">fill</span><span class="o">=</span><span class="s1">''</span><span class="p">,</span><span class="n">title</span><span class="o">=</span><span class="s1">'School Zones'</span><span class="p">)</span></code></pre></figure>
-
-<figure class="highlight"><pre><code class="language-text" data-lang="text">## Warning: Ignoring unknown aesthetics: fill</code></pre></figure>
 
 <p><img src="/figs/2017-02-25-choosing-a-school/unnamed-chunk-10-1.png" alt="center" /></p>
 
@@ -529,7 +513,7 @@
 
 
 <section class="tags">
-  <strong>Tags:</strong> <a href="/tag/r,">r,</a>,&nbsp;<a href="/tag/ggplot2,">ggplot2,</a>,&nbsp;<a href="/tag/ggmap">ggmap</a>
+  <strong>Tags:</strong> <a href="/tag/r">r</a>,&nbsp;<a href="/tag/ggplot2">ggplot2</a>,&nbsp;<a href="/tag/ggmap">ggmap</a>
 </section>
 
 
@@ -622,21 +606,13 @@
         
         
         
-          <li class="nav-link"><a href="/zzzz/">ZZZZZ</a>
         
         
         
         
         
         
-        
-        
-        
-          <li class="nav-link"><a href="/posts/">Posts</a>
-        
-        
-        
-          <li class="nav-link"><a href="/typography/">Typography</a>
+          <li class="nav-link"><a href="/posts/">Blog</a>
         
         
       </ul>

@@ -239,7 +239,8 @@ code {
   background-color: #eee;
   display: inline-block;
   border-radius: 3px;
-  padding: 0 3px; }
+  padding: 0 3px;
+  width: 100%; }
 
 pre code.hljs {
   font-size: 0.83333em; }

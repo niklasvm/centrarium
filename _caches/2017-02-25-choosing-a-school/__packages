@@ -3,7 +3,9 @@ knitr
 ggplot2
 ggmap
 dplyr
+pander
 ggrepel
 tidyr
 class
 purrr
+xtable
