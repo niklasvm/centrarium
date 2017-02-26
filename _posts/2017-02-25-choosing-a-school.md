@@ -2,8 +2,7 @@
 layout: post
 title: 'Choosing a school in Cape Town, Southern Suburbs'
 author: 'Niklas von Maltzahn'
-output: 
-  html_document
+output: html_document
 tags: [r, ggplot2, ggmap]
 category: r
 comments: yes
