@@ -248,3 +248,5 @@ p+
 <img src="/figs/2017-02-25-choosing-where-to-live/unnamed-chunk-10-1.png" style="width:auto;height:auto;">
 
 And there we have it! Now we know which areas one should buy a house in to maximise ones chance of getting in to a particular school.
+
+Thanks for reading.

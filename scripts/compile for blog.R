@@ -2,6 +2,23 @@
 # if the input file is older than the output file.
 
 # run ./knitpages.R to update all knitr files that need to be updated.
+fixIMGTags <- function(filename) {
+  lines <- readLines(filename)
+  img_lines <- grepl('.png',lines,fixed=T)
+  
+  fixTag <- function(s) {
+    if (length(s)==1) {
+      s <- gsub('![center](','',s,fixed=T)
+      s <- substr(s,1,nchar(s)-1)
+      return(sprintf('<img src="%s" style="width:auto;height:auto;">',s))  
+    } else {
+      return(sapply(s,fixTag,simplify = T))
+    }
+    
+  }
+  lines[img_lines] <- fixTag(lines[img_lines])
+  writeLines(lines,con = filename)
+}
 
 KnitPost <- function(input, outfile, figsfolder, cachefolder, base.url="/") {
   # this function is a modified version of an example here:
@@ -30,26 +47,12 @@ knit_folder <- function(infolder, outfolder, figsfolder, cachefolder) {
     if (!file.exists(outfile) |
         file.info(infile)$mtime > file.info(outfile)$mtime) {
       KnitPost(infile, outfile, figsfolder, cachefolder)
+      fixIMGTags(outfile)
     }
   }
 }
 
-filename <- './_posts/2017-02-25-choosing-where-to-live.md'
-lines <- readLines(filename)
-img_lines <- grepl('.png',lines,fixed=T)
 
-fixTag <- function(s) {
-  if (length(s)==1) {
-    s <- gsub('![center](','',s,fixed=T)
-    s <- substr(s,1,nchar(s)-1)
-    return(sprintf('<img src="%s" style="width:auto;height:auto;">',s))  
-  } else {
-    return(sapply(s,fixTag,simplify = T))
-  }
-  
-}
-lines[img_lines] <- fixTag(lines[img_lines])
-writeLines(lines,con = filename)
 
 knit_folder("_rmd", "_posts", "figs/", "_caches/")
 
