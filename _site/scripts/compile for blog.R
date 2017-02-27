@@ -34,4 +34,22 @@ knit_folder <- function(infolder, outfolder, figsfolder, cachefolder) {
   }
 }
 
+filename <- './_posts/2017-02-25-choosing-where-to-live.md'
+lines <- readLines(filename)
+img_lines <- grepl('.png',lines,fixed=T)
+
+fixTag <- function(s) {
+  if (length(s)==1) {
+    s <- gsub('![center](','',s,fixed=T)
+    s <- substr(s,1,nchar(s)-1)
+    return(sprintf('<img src="%s" style="width:auto;height:auto;">',s))  
+  } else {
+    return(sapply(s,fixTag,simplify = T))
+  }
+  
+}
+lines[img_lines] <- fixTag(lines[img_lines])
+writeLines(lines,con = filename)
+
 knit_folder("_rmd", "_posts", "figs/", "_caches/")
+
