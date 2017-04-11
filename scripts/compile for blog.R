@@ -1,3 +1,4 @@
+setwd('~/niklasvm/niklasvm.github.io/')
 # compiles all .Rmd files in _R directory into .md files in Pages directory,
 # if the input file is older than the output file.
 
