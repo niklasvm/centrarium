@@ -6,6 +6,7 @@ output: html_document
 tags: [r, strava, rStrava,igraph,visNetwork,tidyverse]
 category: r
 comments: yes
+image: /figs/2017-04-17-visualising-my-strava-network-2/featured_image.png
 ---
 
 
